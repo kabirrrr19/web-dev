@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+#bkg {
+    background-color : rgba(50,50,150, 0.5);
+    padding : 260px;
+    text-align : center;
+  }
+  h1 {
+      font-size: 44px;
+      font-family: cursive;
+  }
+  #btn-click {
+    width : 200px;
+    font-family: cursive;
+    font-weight: 700;
+    background-color : lightseagreen;
+    color : white;
+    font-size : 24px;
+    padding : 20px;
+    outline : none;
+    border : 0px;
+    border-radius : 6px;
+    cursor : pointer;
+  }

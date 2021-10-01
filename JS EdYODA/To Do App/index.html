@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+</head>
+<body>
+    <main id="task-wrapper"></main>
+        <header>
+            <input id="input" type="text" value="" placeholder="enter a task">
+            <br>
+            <button id="btn-add">Add Task </button>
+            <button id="btn-upd">Update First Task</button>
+            <button id="btn-rem">Remove First Task</button>
+        </header>   
+        <ul id="list">
+            <li id="task-1" class="task">
+                <span class="word">Welcome to my To Do App </span> 
+                <span>
+                    <span class="date"></span>
+                    <a href=""> <i id="trash" class="fas fa-trash font-awesome"></i></a> 
+                </span>
+            </li>        
+        </ul>
+    </main>
+</body>
+    <script src="./script.js"></script> 
+</html>

@@ -1,0 +1,75 @@
+body {
+    margin-top: 220px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #557a95;
+}
+#content-wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+}
+label {
+    position: relative;
+    top: -20px;
+}
+button, #audio-el {
+    font-family: inherit;
+    background-color: darkgray;
+    font-size: 24px;
+    padding: 20px;
+    border: 0;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 20px;
+    outline: none;
+}
+button:hover {
+    animation: pulse 0.4s forwards;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1); 
+    }
+    100% {
+        transform: scale(1.1); 
+    }
+}
+@media (min-width : 1300px) {
+    #content-wrapper {
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+@media (max-width : 1134px) {
+    button {
+        font-size: 18px;
+    }
+    #content-wrapper {
+        grid-template-columns: auto auto auto auto;
+    }
+}
+@media (max-width : 800px) {
+    button {
+        font-size: 16px;
+        padding: 10px;
+    }
+    #content-wrapper {
+        grid-template-columns: auto auto auto;
+    }
+}
+@media (max-width : 557px) {
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+    #content-wrapper {
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width : 367px) {
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+    #content-wrapper {
+        grid-template-columns: auto;
+    }
+}

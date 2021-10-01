@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(101, 139, 189);
+}
+p {
+    font-size: 24px;
+    padding: 40px;
+    background-color: #05386b;
+}
+#btn-wrapper {
+    text-align: center;
+    margin: 100px;
+}
+#btn-click {
+    width : 200px;
+    text-align: center;
+    font-family: cursive;
+    font-weight: 700;
+    background-color : #05386b;
+    color : white;
+    font-size : 24px;
+    padding : 20px;
+    outline : none;
+    border : 0px;
+    border-radius : 6px;
+    cursor : pointer;
+  }
+  #counter-wrapper {
+      display:grid;
+      text-align: center;
+      grid-template-areas: "enter enter over over move move";
+  }
+  #mouse-enter,#mouse-over, #mouse-move {
+      padding: 20px;
+      margin: 20px;
+      border: 2px solid lightgoldenrodyellow;
+      color: aliceblue;
+      background-color: #282828;
+  } 
+  #mouse-enter {
+      grid-area: enter;
+  }
+  #mouse-over{
+      grid-area: over;
+  } 
+  #mouse-move {
+      grid-area: move;
+  }

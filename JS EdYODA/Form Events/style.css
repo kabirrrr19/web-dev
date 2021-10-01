@@ -1,0 +1,42 @@
+body {
+    background-color : #f2f6ff; 
+  }
+  form {
+    border : solid 1px #ccc; 
+    text-align : center;
+    background-color : #fff;
+    width : 700px;
+    margin : 40px auto;
+  }
+  h1 {
+    font-size : 32px;
+    padding-top: 56px;
+    padding-Bottom: 32px;
+  }
+  .inp-container {
+    padding : 80px 80px 40px 80px;
+  }
+  input {
+    font-size : 18px;
+    padding-bottom : 12px;
+    margin : 0 0 36px 0;
+    border-top : 0;
+    border-left : 0;
+    border-right : 0;
+    border-bottom : 1px solid #ccc;
+    font-size: 18px
+  }
+  button {
+    background-color: #0056ff;
+    padding : 12px 24px 12px 24px;
+    font-size : 12px;
+    color : white;
+    font-weight : bold;
+    border : none;
+    margin-bottom: 40px;
+  }
+  hr {
+      outline: none;
+      width: 300px;
+  }
+  

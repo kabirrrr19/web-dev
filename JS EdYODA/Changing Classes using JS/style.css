@@ -1,0 +1,32 @@
+#bkg {
+    background-color : rgba(50,50,150, 0.5);
+    padding : 100px;
+    text-align : center;
+  }
+  button {
+    margin-bottom: 30px;
+  }
+  .title {
+      font-size: 48px;
+      font-family: cursive;
+  }
+  .small {
+    font-size: 24px;
+  }
+  .big {
+      font-size: 72px;
+  }
+  .btn-click1, .btn-click2, .btn-click3 {
+    width : 200px;
+    font-family: cursive;
+    font-weight: 700;
+    background-color : lightseagreen;   
+    color : white;
+    font-size : 24px;
+    padding : 20px;
+    outline : none;
+    border : 0px;
+    border-radius : 6px;
+    cursor : pointer;
+    margin-right: 20px;
+  }
